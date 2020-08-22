@@ -106,3 +106,8 @@
 
     
 }
+
+.searchPage__results{
+  position: relative;
+  z-index: 20;
+}

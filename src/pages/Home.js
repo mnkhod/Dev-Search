@@ -22,10 +22,6 @@ function Home(){
           <a href="https://www.instagram.com/mnkh_od/"><InstagramIcon /></a>
         </div>
 
-        <div className="home__headerRight">
-          <AppsIcon />
-          <Avatar />
-        </div>
       </div>
 
       <div className="home__body">

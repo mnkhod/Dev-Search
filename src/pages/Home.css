@@ -65,3 +65,8 @@
   position: relative;
   z-index: 20;
 }
+
+.search__buttons{
+  position: relative;
+  z-index: 20;
+}
