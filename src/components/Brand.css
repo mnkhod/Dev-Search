@@ -1,0 +1,15 @@
+.brand {
+  text-align: center;
+}
+.brand h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.brand p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: .7em;
+  font-weight: normal;
+  letter-spacing: 2px;
+}

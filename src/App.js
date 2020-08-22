@@ -28,4 +28,3 @@ function App() {
 
 
 export default App;
-      <h1>Home Page</h1>
