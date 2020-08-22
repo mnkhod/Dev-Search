@@ -13,12 +13,13 @@ import Search from '../components/Search'
 
 
 function Home(){
+
   return (			
     <div className='home'>
       <div className="home__header">
         <div className="home__headerLeft">
-          <a href="#"><GitHubIcon /></a>
-          <a href="#"><InstagramIcon /></a>
+          <a href="https://github.com/mnkhod"><GitHubIcon /></a>
+          <a href="https://www.instagram.com/mnkh_od/"><InstagramIcon /></a>
         </div>
 
         <div className="home__headerRight">
@@ -28,7 +29,7 @@ function Home(){
       </div>
 
       <div className="home__body">
-        <h1>Dev Search</h1>
+        <h1 className="home__bodytitle">Dev Search</h1>
         <Search />
         <Brand />
       </div>
