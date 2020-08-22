@@ -1,9 +1,15 @@
 import React from 'react'
 import './Home.css';
 import { Link } from 'react-router-dom'
+
 import AppsIcon from "@material-ui/icons/Apps"
+import GitHubIcon from '@material-ui/icons/GitHub';
+import InstagramIcon from '@material-ui/icons/Instagram';
 import { Avatar } from "@material-ui/core"
+
+
 import Brand from '../components/Brand'
+import Search from './Search'
 
 
 function Home(){
@@ -11,19 +17,19 @@ function Home(){
     <div className='home'>
       <div className="home__header">
         <div className="home__headerLeft">
-          <Link to="/about">About</Link>
-          <Link to="/store">Store</Link>
+          <a href="#"><GitHubIcon /></a>
+          <a href="#"><InstagramIcon /></a>
         </div>
 
         <div className="home__headerRight">
-          <Link to="/gmail">Gmail</Link>
-          <Link to="/images">Images</Link>
           <AppsIcon />
           <Avatar />
         </div>
       </div>
 
       <div className="home__body">
+        <h1>Dev Search</h1>
+        <Search />
         <Brand />
       </div>
 

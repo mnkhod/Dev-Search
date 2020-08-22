@@ -1,15 +1,36 @@
 .brand {
+  display: flex;
+  flex:1;
+  flex-direction: column;
   text-align: center;
+  justify-content: flex-end;
+  margin-bottom: 2em;
+  user-select: none;
 }
 .brand h1 {
   font-family: 'Bebas Neue', cursive;
-  font-size: 4em;
+  font-size: 6vw;
   font-weight: bold;
 }
 
 .brand p {
   font-family: 'Bebas Neue', cursive;
-  font-size: .7em;
+  font-size: 3vw;
   font-weight: normal;
   letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 580px){
+  .brand h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .brand p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 2px;
+  }
 }

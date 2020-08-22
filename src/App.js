@@ -14,6 +14,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/search">
+            <h1>Search Page</h1>
           </Route>
 
           <Route path="/">

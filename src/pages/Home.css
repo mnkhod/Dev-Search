@@ -27,9 +27,23 @@
   display: flex;
   align-items: center;
   min-width: 13vw;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .home__headerRight > .MuiSvgIcon-root {
   margin-right: 20px;
+}
+
+.home__body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 2em;
+}
+
+.home__body h1 {
+  text-align: center; 
+  font-family: 'Bebas Neue', cursive;
+  font-size: 12vw;
+  user-select: none;
 }
