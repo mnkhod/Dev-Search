@@ -9,7 +9,7 @@ import { Avatar } from "@material-ui/core"
 
 
 import Brand from '../components/Brand'
-import Search from './Search'
+import Search from '../components/Search'
 
 
 function Home(){

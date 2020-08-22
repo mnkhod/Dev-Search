@@ -5,7 +5,7 @@ import MicIcon from '@material-ui/icons/Mic';
 import { Button } from '@material-ui/core'
 import { useHistory } from 'react-router-dom'
 
-function Search(){
+function Search( { hideButtons = false } ){
   const [input,setInput] = useState('')
   const history = useHistory()
 
@@ -23,10 +23,18 @@ function Search(){
         <MicIcon />
       </div>
 
-      <div className="search__buttons">
-        <Button type="Submit" onClick={search} variant="outlined">Google Search</Button>
-        <Button variant="outlined">I'm Feeling Lucky</Button>
-      </div>
+      { !hideButtons ? (
+        <div className="search__buttons">
+          <Button type="Submit" onClick={search} variant="outlined">Google Search</Button>
+          <Button variant="outlined">I'm Feeling Lucky</Button>
+        </div>
+      ) : (
+        <div className="search__buttons">
+          <Button className="hidden" type="Submit" onClick={search} variant="outlined">Google Search</Button>
+          <Button className="hidden" variant="outlined">I'm Feeling Lucky</Button>
+        </div>
+      ) }
+
     </form>
   )
 }
