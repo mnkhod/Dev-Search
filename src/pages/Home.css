@@ -68,5 +68,16 @@
 
 .search__buttons{
   position: relative;
+  background: transparent;
   z-index: 20;
+}
+
+@media only screen and (max-width: 400px) {
+  .home__body {
+    margin-top: 9em;
+  }
+
+  .searchPage__header a{
+    margin-right: 1em;
+  }
 }
