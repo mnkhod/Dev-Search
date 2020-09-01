@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://dev-search-1d4c5.web.app/" >
-    <img src="/logo.png" alt="Logo" width="90">
+    <img src="/logo.png" alt="Logo" width="50">
   </a>
   
   <p align="center">
