@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://dev-search-1d4c5.web.app/">
-    <img src="https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Logo" width="80" height="80">
+    <img src="/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Dev Search</h3>
