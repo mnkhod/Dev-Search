@@ -12,4 +12,4 @@
   </p>
 </p>
 
-<p align="center">![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)</p>
+<p align="center">![Alt Text]("\preview.gif")</p>
