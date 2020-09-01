@@ -12,4 +12,4 @@
   </p>
 </p>
 
-<p align="center">![Alt Text]("\preview.gif")</p>
+![Alt Text](preview.gif)
